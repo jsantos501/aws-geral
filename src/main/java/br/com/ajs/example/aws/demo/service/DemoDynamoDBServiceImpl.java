@@ -19,7 +19,7 @@ import br.com.ajs.example.aws.demo.response.ResponseItem;
 @Service
 public class DemoDynamoDBServiceImpl implements DemoDynamoDBService{
 	
-    BasicAWSCredentials creds = new BasicAWSCredentials("AKIAVMZM6N2L5G7OF4ON", "E/Pfah4Qma0BEGLAHqeL+3T629z/1kKGXCe72dXr");
+    BasicAWSCredentials creds = new BasicAWSCredentials("user-key-aws", "secret-key-aws");
 
 	AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
 			.withRegion("sa-east-1")
